@@ -17,6 +17,8 @@ def index(request):
         "HelloDjangoApp/index.html",  # Relative path from the 'templates' folder to the template file
         
         {
-            'content': "<strong>Hello Django!</strong> on " + now.strftime("%A, %d %B, %Y at %X")
+            'title' : "My Really Sweet Website",
+            'message' : "Hello Everybody! ",
+            'content': " The current time and date is... " + now.strftime("%A, %d %B, %Y at %X")
         }
     )
