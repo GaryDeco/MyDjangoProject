@@ -22,3 +22,13 @@ def index(request):
             'content': " The current time and date is... " + now.strftime("%A, %d %B, %Y at %X")
         }
     )
+
+def about(request):
+    return render(
+        request,
+        "HelloDjangoApp/about.html",
+        {
+            'title' : "My About Page Title",
+            'content' : "My App Page Content"
+        }
+    )
