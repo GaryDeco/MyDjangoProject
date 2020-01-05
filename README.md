@@ -1,7 +1,7 @@
 # MyDjangoProject
 A very light website build. The site displays a home screen with title and link to about page. Created for the purpose of learning the Django web framework.
 
-# checklist #
+# Checklist #
 
 * Created visual studio default blank Django project and solution
 * Established source control for github push
